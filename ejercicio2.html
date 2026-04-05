@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html">Volver al inicio</a>
+    </header>
+    <h1>Selecciona tus stickers!</h1>
+    <h3>solo puedes llevar hasta 10 stickers</h3>
+
+    <div class="sticker-container">
+        <div class="sticker-box">
+            <img src="./assets/img/jinx.png" alt="jinx sticker">
+            <input type="number" id="stickerOne" min="0" value="0">
+        </div>
+
+        <div class="sticker-box">
+            <img src="./assets/img/lulu.png" alt="lulu sticker">
+            <input type="number" id="stickerTwo" min="0" value="0">
+        </div>
+
+        <div class="sticker-box">
+            <img src="./assets/img/yasuo.png" alt="yasuo sticker">
+            <input type="number" id="stickerThree" min="0" value="0">
+        </div>
+    </div>
+
+    <button id="buyButton"> Comprar!</button>
+    <p id="textoTotal"></p>
+
+    <script src="./assets/script/ejercicio2.js"></script>
+</body>
+</html>
