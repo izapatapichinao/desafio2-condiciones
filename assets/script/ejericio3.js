@@ -8,8 +8,11 @@ const buttonPassword = document.getElementById("buttonPassword");
 buttonPassword.addEventListener("click", () => {
     const password = numberOne.value + numberTwo.value + numberThree.value;
 
-    if (password === "911" || password === "714") {
-        passwordStatus.innerHTML = "Contraseña correcta";
+    if (password === "911") {
+        passwordStatus.innerHTML = "Contraseña 1 correcta";
+        passwordStatus.style.color = "green";
+    }else if (password === "714") {
+        passwordStatus.innerHTML = "Contraseña 2 correcta";
         passwordStatus.style.color = "green";
     } else {
         passwordStatus.innerHTML = "Contraseña incorrecta";
